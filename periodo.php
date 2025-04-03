@@ -17,3 +17,12 @@
 		</center>
 	</body>
 </html>
+<?php
+	function resolve($dtIni, $dtFim){
+		$dias = 0;
+
+
+
+		return $dias;
+	}
+?>
