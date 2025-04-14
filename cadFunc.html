@@ -1,0 +1,93 @@
+<html>
+	<head>
+		<title>Empresa S.A.</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<center>
+			<h1>Cadastro de Funcionários</h1>
+			<br><br>
+			<form method="GET" action="promocao.php">
+				<table>
+					<tr>
+						<th colspan="2">Entre com os seguintes dados:</th>
+					</tr>
+					<tr>
+						<td colspan="2" align="center">
+							&nbsp;
+						</td>
+					</tr>
+					<tr>
+						<td>Nome:</td>
+						<td> 
+							<input type="text" name="nome">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" align="center">
+							&nbsp;
+						</td>
+					</tr>
+					<tr>
+						<td>CPF:</td>
+						<td> 
+							<input type="text" name="cpf" size="11" maxlength="15">
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" align="center">
+							&nbsp;
+						</td>
+					</tr>
+					<tr>
+						<td>Setor:</td>
+						<td> 
+							<select name="setor">
+								<option value="rh">RH</option>
+								<option value="ti">TI</option>
+								<option value="transp">TRANSPORTES</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" align="center">
+							&nbsp;
+						</td>
+					</tr>
+					<tr>
+						<td>Tipo Cargo:</td>
+						<td> 
+							<input type="radio" name="tipo" value="gerente"> Gerente <br>
+							<input type="radio" name="tipo" value="normal"> Normal
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" align="center">
+							&nbsp;
+						</td>
+					</tr>
+					<tr>
+						<td>Formação:</td>
+						<td> 
+							<input type="checkbox" name="formacao[]" value="primario"> Primário <br>
+							<input type="checkbox" name="formacao[]" value="medio"> Ensino Médio <br>
+							<input type="checkbox" name="formacao[]" value="superior"> Faculdade
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" align="center">
+							&nbsp;
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2" align="center">
+							<input type="submit" value="Enviar">
+						</td>
+					</tr>
+				</table>
+			</form>
+
+		</center>
+	</body>
+</html>
